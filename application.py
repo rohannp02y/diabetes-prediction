@@ -4,7 +4,7 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
 #loading the saved model
-loaded_model =pickle.load(open('C:/Users/DELL/Downloads/credit_card_fraud/diabetes_prediction/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #creating a function for Prediction
 def diabetes_prediction(input_data):
