@@ -3,7 +3,8 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 #loading the saved model
-loaded_model =pickle.load(open('C:/Users/DELL/Downloads/credit_card_fraud/diabetes_prediction/trained_model.sav', 'rb'))
+
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #Making a predictive system
 input_data = (4,110,92,0,0,37.6,0.191,30)
